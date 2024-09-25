@@ -140,6 +140,7 @@ export function LlmCostCalculator() {
 
   useEffect(() => {
     updateTokenCounts();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [exampleInput, exampleOutput]);
 
   return (
